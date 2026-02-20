@@ -1,0 +1,88 @@
+body {
+    background-color: #f4f6f9;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+    width: 240px;
+    background-color: #2f3e46;
+    min-height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 20px;
+}
+
+.sidebar h4 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.sidebar a {
+    display: block;
+    color: #ddd;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.sidebar a:hover {
+    background-color: #3a4f57;
+    color: #fff;
+}
+
+/* Active Dashboard */
+.sidebar .active-menu {
+    background-color: #f4b400;
+    color: #fff !important;
+}
+
+.submenu a {
+    padding-left: 40px;
+    font-size: 14px;
+    background-color: #36474f;
+}
+
+/* ===== TOP HEADER ===== */
+.top-header {
+    margin-left: 240px;
+    background-color: #343a40;
+    color: white;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ===== GREEN NAVBAR ===== */
+.green-navbar {
+    margin-left: 240px;
+    background-color: #0a7d00;
+    padding: 12px 20px;
+}
+
+.green-navbar a {
+    color: white;
+    margin-right: 25px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.green-navbar a:hover {
+    text-decoration: underline;
+}
+
+/* ===== MAIN CONTENT ===== */
+.main-content {
+    margin-left: 240px;
+    padding: 30px;
+}
+
+.card-box {
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
