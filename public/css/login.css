@@ -101,3 +101,24 @@ html,body,.app-container{
 
 .register-cta{display:flex;justify-content:center;margin-top:6px}
 
+/* Layout styles for app shell */
+.app-shell{min-height:100vh;display:flex;flex-direction:column;background:linear-gradient(180deg,#fbfbfd 0%,var(--bg) 100%)}
+.app-header{height:60px;display:flex;align-items:center;justify-content:space-between;padding:0 18px;border-bottom:1px solid #eef2ff;background:#fff}
+.header-brand{font-weight:700;color:#0f172a}
+.header-actions{display:flex;gap:10px;align-items:center}
+.notification-btn,.user-btn{background:transparent;border:1px solid transparent;padding:8px 10px;border-radius:8px;cursor:pointer}
+.notification-btn:hover,.user-btn:hover{background:#f3f4f6}
+
+.app-body{display:flex;flex:1;gap:20px;padding:20px}
+.app-sidebar{width:220px;background:#fff;border-radius:10px;padding:12px;box-shadow:0 8px 20px rgba(16,24,40,0.06)}
+.app-sidebar nav ul{list-style:none;padding:0;margin:0}
+.app-sidebar nav a{display:block;padding:8px 6px;color:#0f172a;text-decoration:none;border-radius:6px}
+.app-sidebar nav a:hover{background:#f8fafc}
+.app-main{flex:1}
+
+@media (max-width:900px){
+  .app-body{flex-direction:column}
+  .app-sidebar{width:100%}
+}
+
+
