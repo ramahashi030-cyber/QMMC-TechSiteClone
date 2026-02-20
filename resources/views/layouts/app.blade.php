@@ -4,24 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title', 'App')</title>
-<<<<<<< HEAD
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <!-- Login CSS (for auth pages) -->
     <link href="{{ asset('css/login.css') }}" rel="stylesheet">
 
+    <!-- App CSS -->
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <!-- Client Reports CSS -->
+    <link href="{{ asset('css/clientreports.css') }}" rel="stylesheet">
+
     <!-- Page Specific CSS -->
     @stack('styles')
-</head>
-<body>
-    <div class="app-container">
-        @yield('content')
-=======
-    <link href="{{ asset('css/login.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/clientreports.css') }}" rel="stylesheet">
 </head>
 <body>
     <div class="app-container">
@@ -63,7 +63,6 @@
                 @yield('content')
             </main>
         </div>
->>>>>>> c298eb7863d579bb6db201505b744d894e391721
     </div>
 
     <!-- Bootstrap JS (IMPORTANT for dropdown/collapse) -->
